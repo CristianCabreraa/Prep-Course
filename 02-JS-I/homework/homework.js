@@ -35,25 +35,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  x + y;
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  x - y;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  x * y;
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  x / y;
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -91,7 +91,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-   x % y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -130,19 +130,19 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num);
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  Math.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -219,7 +219,7 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-    return "Es Vocal";
+    return "Es vocal";
   }else {
     return "Dato incorrecto";
   }
